@@ -2,6 +2,7 @@ import TextField from '@mui/material/TextField';
 import SendIcon from '@mui/icons-material/Send';
 import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
+import SearchIcon from '@mui/icons-material/Search';
 import './SearchBox.css'
 import { useState } from 'react';
 function SearchBox({updateweather}){
@@ -46,7 +47,7 @@ function SearchBox({updateweather}){
            <div className='searchbox'>
              <form onChange={handleChange}>
              <TextField className="myTextField" id="outlined-basic" label="City" variant="outlined" required value={city} onChange={handleChange} />
-             <Button variant="contained" endIcon={<SendIcon />} type='submit' size="small" id='searchbtn' onClick={handleSubmit}>Search</Button>
+             <Button variant="contained" endIcon={<SearchIcon />} type='submit' size="small" id='searchbtn' onClick={handleSubmit}>Search</Button>
             </form>
            </div>
         </div>
