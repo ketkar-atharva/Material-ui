@@ -7,6 +7,30 @@
     margin-top: 10px;
     margin-left: 5px;
 }
-#outlined-basic{
+.searchfield{
     color: white !important;
+}
+/* root element */
+.myTextField .MuiOutlinedInput-root {
+    border-radius: 12px !important;
+}
+
+/* border color */
+.myTextField .MuiOutlinedInput-notchedOutline {
+    border-color: white !important;
+}
+
+/* input text */
+.myTextField .MuiInputBase-input {
+    color:white !important;
+}
+
+/* label */
+.myTextField .MuiInputLabel-root {
+    color:white !important;
+}
+
+/* label when focused */
+.myTextField .MuiInputLabel-root.Mui-focused {
+    color:white !important;
 }

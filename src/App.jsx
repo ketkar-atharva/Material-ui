@@ -2,12 +2,12 @@
 import './App.css'
 import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
-import SearchBox from './SearchBox';
+import WeatherApp from './WeatherApp';
 function App() {
 
   return (
     <>
-     <SearchBox/>
+     <WeatherApp/>
     </>
   )
 }
