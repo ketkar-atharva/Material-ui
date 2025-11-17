@@ -1,0 +1,12 @@
+.searchbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#searchbtn{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+#outlined-basic{
+    color: white !important;
+}
